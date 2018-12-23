@@ -1,0 +1,27 @@
+{
+  "name": "120home",
+  "version": "1.0.0",
+  "description": "120 Studio website",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/120Studio/120home.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/120Studio/120home/issues"
+  },
+  "homepage": "https://github.com/120Studio/120home#readme",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
