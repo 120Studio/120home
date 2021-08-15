@@ -16,7 +16,7 @@ export default function ExtForInstagram() {
     name: "Extension for Instagram",
     desc: "A free chrome extension to view instagram with all mobile features.",
     icon: "./assets/instagram-128.png",
-    href: "./webinstagram",
+    href: "./webinstagram.html",
     installPath: "https://chrome.google.com/webstore/detail/extension-for-instagram/dkfmiibnoifcbiblibjpfalbdfpdoeni",
     details: [
       "Post photos (to story) directly from your desktop",

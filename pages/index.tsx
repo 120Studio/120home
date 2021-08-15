@@ -13,7 +13,7 @@ export default function Home() {
     name: "Drive Bookmark",
     desc: "Map your Google Drive to your bookmark. You can easily access for your drive files including team folder via bookmark.",
     icon: "./assets/bookmark-128.png",
-    href: "./drivemark",
+    href: "./drivemark.html",
     installPath: "https://chrome.google.com/webstore/detail/drive-bookmark/gailnkgbkabnclnnponepghblkbjgkfl",
     tips: [
       "How many times did you switch different Google drives to find your file?",
@@ -26,7 +26,7 @@ export default function Home() {
     name: "Extension for Instagram",
     desc: "A free chrome extension to view instagram with all mobile features.",
     icon: "./assets/instagram-128.png",
-    href: "./webinstagram",
+    href: "./webinstagram.html",
     installPath: "https://chrome.google.com/webstore/detail/extension-for-instagram/dkfmiibnoifcbiblibjpfalbdfpdoeni",
     details: [
       "Post photos (to story) directly from your desktop",
