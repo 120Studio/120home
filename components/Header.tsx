@@ -3,6 +3,7 @@ export interface IHeaderProps {
   desc: string;
   installPath?: string;
   facebookShare?: string;
+  privaryNotice?: boolean;
 }
 
 function Header(props: IHeaderProps) {
@@ -16,6 +17,9 @@ function Header(props: IHeaderProps) {
         }
       </h1>
       <p className="w3-xlarge">{props.desc}</p>
+      {props.privaryNotice && <a href="./privacy.html">
+        <button className="w3-button w3-black w3-padding-large w3-large w3-margin-top">Privacy</button>
+      </a>}
       {props.installPath && <a href={props.installPath}>
         <button className="w3-button w3-black w3-padding-large w3-large w3-margin-top">Install</button>
       </a>}

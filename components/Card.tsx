@@ -15,12 +15,14 @@ function Card(props: ICardProps) {
         <div className="w3-twothird">
           <h1><a href={props.href}>{props.name}</a></h1>
           <h5 className="w3-padding-32">{props.desc}
-            {props.details && props.details.map(d => <ul>{d}</ul>)}
+            <div>
+              {props.details && props.details.map((d, index) => <ul key={index}>{d}</ul>)}
+            </div>
           </h5>
 
-          <p className="w3-text-grey">
-            {props.tips.map(d => <div>{d}</div>)}
-          </p>
+          <div className="w3-text-grey">
+            {props.tips.map((d, index) => <div key={index}>{d}</div>)}
+          </div>
         </div>
 
         <div className="w3-third w3-center">

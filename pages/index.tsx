@@ -6,7 +6,8 @@ import Layout from '../components/Layout'
 export default function Home() {
   const header: IHeaderProps = {
     name: "120 Studio",
-    desc: "Provide free productivity tools for you!"
+    desc: "Provide free productivity tools for you!",
+    privaryNotice: true
   }
 
   const driveMark: ICardProps = {
