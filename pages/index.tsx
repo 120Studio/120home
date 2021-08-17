@@ -40,6 +40,18 @@ export default function Home() {
     ]
   }
 
+  const tiktokExt: ICardProps = {
+    name: "Extension for Tiktok",
+    desc: "A free chrome extension to download Tiktok videos or open them in PictureInPicture. And more great user experience.",
+    icon: "./assets/tiktok/icon-128.png",
+    href: "./tiktok.ext.html",
+    installPath: "https://chrome.google.com/webstore/detail/extension-for-tiktok/keahbhfgjpfnmedeldbjfjjpilhjaiie",
+    details: [
+      "Download videos with one right click!",
+      "Play videos in PictureInPicture mode and enjoying scolling for next fun."
+    ]
+  }
+
   return (
     <div>
       <Head>
@@ -59,6 +71,7 @@ export default function Home() {
 
         <Card {...driveMark} />
         <Card {...instagram} />
+        <Card {...tiktokExt} />
       </Layout>
     </div>
   )

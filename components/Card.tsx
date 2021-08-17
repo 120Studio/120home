@@ -5,7 +5,7 @@ export interface ICardProps {
   desc: string;
   details?: string[]
   icon: string;
-  tips: string[];
+  tips?: string[];
 }
 
 function Card(props: ICardProps) {
@@ -21,7 +21,7 @@ function Card(props: ICardProps) {
           </h5>
 
           <div className="w3-text-grey">
-            {props.tips.map((d, index) => <div key={index}>{d}</div>)}
+            {props.tips && props.tips.map((d, index) => <div key={index}>{d}</div>)}
           </div>
         </div>
 

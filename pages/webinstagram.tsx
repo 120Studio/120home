@@ -7,14 +7,14 @@ import Showcase, { IShowcaseProps } from '../components/Showcase'
 export default function ExtForInstagram() {
   const header: IHeaderProps = {
     name: " Extension for Instagram ",
-    desc: "A free chrome extension to enhance Instagram User experience!",
+    desc: "A free chrome extension to enhance Instagram user experience!",
     installPath: "https://chrome.google.com/webstore/detail/web-instagram/dkfmiibnoifcbiblibjpfalbdfpdoeni",
     facebookShare: "https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fextension-for-instagram%2Fdkfmiibnoifcbiblibjpfalbdfpdoeni%3Fhl%3Den&layout=button&size=small&appId=370678740170181&width=67&height=20"
   }
 
   const instagram: ICardProps = {
     name: "Extension for Instagram",
-    desc: "A free chrome extension to view instagram with all mobile features.",
+    desc: "A free chrome extension to view instagram with all mobile features and great user experience.",
     icon: "./assets/instagram-128.png",
     href: "./webinstagram.html",
     installPath: "https://chrome.google.com/webstore/detail/extension-for-instagram/dkfmiibnoifcbiblibjpfalbdfpdoeni",
