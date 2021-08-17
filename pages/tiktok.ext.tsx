@@ -20,7 +20,7 @@ export default function ExtForTiktok() {
     installPath: "https://chrome.google.com/webstore/detail/extension-for-tiktok/keahbhfgjpfnmedeldbjfjjpilhjaiie",
     details: [
       "Download videos with one right click!",
-      "Play videos in PictureInPicture mode and enjoying scolling for next fun."
+      "Play videos in PictureInPicture mode and enjoying scrolling for next fun."
     ]
   }
 
@@ -30,7 +30,7 @@ export default function ExtForTiktok() {
   }
 
   const showcase2: IShowcaseProps = {
-    name: "Play videos in PictureInPicture mode and enjoying scolling for next fun.",
+    name: "Play videos in PictureInPicture mode and enjoying scrolling for next fun.",
     caseImg: "./assets/tiktok/tiktok-picinpic.png"
   }
 
