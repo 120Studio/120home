@@ -1,4 +1,4 @@
-# 120 
+# 120 Studio
 Here is 120 Studio. We want to listen to your feedback, simply create an issue here.
 
 # Issues
